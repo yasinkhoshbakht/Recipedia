@@ -4,12 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        orange: "#F79F1A",
-        green: "#046E1B",
-        lightBlue: "#75B8EE",
+        primaryColor: "#046E1B",
+        secondaryColor: "#F79F1A",
+        blue: "#75B8EE",
+        bisco: "#FFC170",
+        gray: "#7F7D7D",
       },
       fontFamily: {
-        Inter: "Inter,sans",
+        inter: ["Inter", "sans-serif"],
+      },
+      boxShadow: {
+        comment: "0 4px 30px #00000010",
       },
     },
   },
