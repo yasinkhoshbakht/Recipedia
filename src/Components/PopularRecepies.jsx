@@ -1,16 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext } from "react";
 import Button from "./Button";
 import RecepieCard from "./RecepieCard";
+import { FoodDataContext } from "../Contexts/foodDataContext";
 
-function PopularRecepies() {
-  const [popularRecipes, setPopularRecipes] = useState([]);
+function PopularRecepies({ limit = true }) {
+  const { foodData } = useContext(FoodDataContext);
 
-  useEffect(() => {
-    fetch("http://localhost:3000/foods")
-      .then((response) => response.json())
-      .then((data) => setPopularRecipes(data))
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+  const recipesToRender = limit ? foodData.data.slice(0, 6) : foodData.data;
 
   return (
     <div className="mt-[200px]">
@@ -24,7 +20,7 @@ function PopularRecepies() {
         <Button text="See All" height={55} width={150} />
       </div>
       <div className="recepeis-container flex justify-between flex-wrap pt-[70px] w-full h-[254px]">
-        {popularRecipes.map((food) => (
+        {recipesToRender.map((food) => (
           <RecepieCard
             key={food.id}
             name={food.name}

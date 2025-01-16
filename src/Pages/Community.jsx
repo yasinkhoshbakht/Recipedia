@@ -4,7 +4,7 @@ import CommunitySection from "../Components/CommunitySection";
 function Community() {
   return (
     <div>
-      <CommunitySection />
+      <CommunitySection limit={false} />
     </div>
   );
 }

@@ -1,5 +1,199 @@
 {
-  "data": [
+  "foods": [
+    {
+      "id": 1,
+      "name": "Spaghetti Carbonara",
+      "image": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "cookingDuration": 30,
+      "cookingLevel": "medium",
+      "servingNumber": 4
+    },
+    {
+      "id": 2,
+      "name": "Grilled Chicken Salad",
+      "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "cookingDuration": 20,
+      "cookingLevel": "easy",
+      "servingNumber": 2
+    },
+    {
+      "id": 3,
+      "name": "Beef Wellington",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "cookingDuration": 120,
+      "cookingLevel": "hard",
+      "servingNumber": 6
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir Fry",
+      "image": "https://images.unsplash.com/photo-1485962307416-993e145b0d0d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "cookingDuration": 15,
+      "cookingLevel": "easy",
+      "servingNumber": 3
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Lava Cake",
+      "image": "https://images.unsplash.com/photo-1465014925804-7b9ede58d0d7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "cookingDuration": 25,
+      "cookingLevel": "medium",
+      "servingNumber": 4
+    },
+    {
+      "id": 6,
+      "name": "Tacos al Pastor",
+      "image": "https://images.unsplash.com/photo-1432139509613-5c4255815697?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "cookingDuration": 45,
+      "cookingLevel": "medium",
+      "servingNumber": 4
+    },
+    {
+      "id": 7,
+      "name": "Margherita Pizza",
+      "image": "https://plus.unsplash.com/premium_photo-1680158494615-d820561ab577?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 40,
+      "cookingLevel": "easy",
+      "servingNumber": 3
+    },
+    {
+      "id": 8,
+      "name": "Tom Yum Soup",
+      "image": "https://plus.unsplash.com/premium_photo-1666649675527-6a7859752c53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 30,
+      "cookingLevel": "medium",
+      "servingNumber": 4
+    },
+    {
+      "id": 9,
+      "name": "Chicken Tikka Masala",
+      "image": "https://plus.unsplash.com/premium_photo-1679591002572-c44765f20ef8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 60,
+      "cookingLevel": "medium",
+      "servingNumber": 5
+    },
+    {
+      "id": 10,
+      "name": "Pad Thai",
+      "image": "https://images.unsplash.com/photo-1582385456790-daf3fa701401?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 40,
+      "cookingLevel": "medium",
+      "servingNumber": 3
+    },
+    {
+      "id": 11,
+      "name": "Shrimp Scampi",
+      "image": "https://images.unsplash.com/photo-1662046001756-2b6d466ff4e4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 25,
+      "cookingLevel": "easy",
+      "servingNumber": 4
+    },
+    {
+      "id": 12,
+      "name": "Ratatouille",
+      "image": "https://images.unsplash.com/photo-1714569758303-2e0e0a88c3d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 50,
+      "cookingLevel": "medium",
+      "servingNumber": 4
+    },
+    {
+      "id": 13,
+      "name": "Eggplant Parmesan",
+      "image": "https://images.unsplash.com/photo-1623855245544-fa477b4d9e3e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 60,
+      "cookingLevel": "medium",
+      "servingNumber": 6
+    },
+    {
+      "id": 14,
+      "name": "Buffalo Wings",
+      "image": "https://images.unsplash.com/photo-1667329829058-ac191ba4a905?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 35,
+      "cookingLevel": "medium",
+      "servingNumber": 5
+    },
+    {
+      "id": 15,
+      "name": "Sushi Platter",
+      "image": "https://images.unsplash.com/photo-1683327451560-957e65829f79?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 90,
+      "cookingLevel": "hard",
+      "servingNumber": 4
+    },
+    {
+      "id": 16,
+      "name": "Clam Chowder",
+      "image": "https://plus.unsplash.com/premium_photo-1671559021681-28cecb3631a4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 45,
+      "cookingLevel": "medium",
+      "servingNumber": 6
+    },
+    {
+      "id": 17,
+      "name": "French Onion Soup",
+      "image": "https://images.unsplash.com/photo-1634141614525-23ecd28f531b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 50,
+      "cookingLevel": "medium",
+      "servingNumber": 6
+    },
+    {
+      "id": 18,
+      "name": "Lasagna",
+      "image": "https://images.unsplash.com/photo-1634141614476-1b421ce4aace?q=80&w=2084&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 90,
+      "cookingLevel": "hard",
+      "servingNumber": 8
+    },
+    {
+      "id": 19,
+      "name": "Fish and Chips",
+      "image": "https://plus.unsplash.com/premium_photo-1671394138161-209f57a074fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 40,
+      "cookingLevel": "medium",
+      "servingNumber": 4
+    },
+    {
+      "id": 20,
+      "name": "Churros",
+      "image": "https://images.unsplash.com/photo-1631456769607-548acc5b4928?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 35,
+      "cookingLevel": "easy",
+      "servingNumber": 4
+    },
+    {
+      "id": 21,
+      "name": "Pho",
+      "image": "https://images.unsplash.com/photo-1609167830240-fc81e9cfd9bf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 120,
+      "cookingLevel": "hard",
+      "servingNumber": 6
+    },
+    {
+      "id": 22,
+      "name": "Falafel Wrap",
+      "image": "https://plus.unsplash.com/premium_photo-1695635984852-9d625b6e491d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 40,
+      "cookingLevel": "medium",
+      "servingNumber": 4
+    },
+    {
+      "id": 23,
+      "name": "Peking Duck",
+      "image": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookingDuration": 180,
+      "cookingLevel": "hard",
+      "servingNumber": 6
+    },
+    {
+      "id": 24,
+      "name": "Pancakes",
+      "image": "https://images.unsplash.com/photo-1521305916504-4a1121188589?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzUxfHxmb29kc3xlbnwwfHwwfHx8MA%3D%3D",
+      "cookingDuration": 20,
+      "cookingLevel": "easy",
+      "servingNumber": 4
+    }
+  ],
+  "comments": [
     {
       "recepyName": "Spaghetti Carbonara",
       "recepyDescription": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper. Perfect for a quick yet indulgent dinner.",
@@ -39,56 +233,46 @@
       "username": "Liam",
       "userImage": "userImage.jpg",
       "id": 4
-    }
-  ],
-  "foods": [
-    {
-      "id": 1,
-      "name": "Spaghetti Carbonara",
-      "image": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookingDuration": 30,
-      "cookingLevel": "medium",
-      "servingNumber": 4
     },
     {
-      "id": 2,
-      "name": "Grilled Chicken Salad",
-      "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookingDuration": 20,
-      "cookingLevel": "easy",
-      "servingNumber": 2
+      "recepyName": "Grilled Chicken Sandwich",
+      "recepyDescription": "A delicious sandwich made with grilled chicken, fresh lettuce, tomatoes, and a tangy dressing. Perfect for a light meal.",
+      "recepyImage": "grilledChickenSandwich.jpg",
+      "stars": 3,
+      "likes": 280,
+      "username": "Emma",
+      "userImage": "userImage.jpg",
+      "id": 5
     },
     {
-      "id": 3,
-      "name": "Beef Wellington",
-      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookingDuration": 120,
-      "cookingLevel": "hard",
-      "servingNumber": 6
+      "recepyName": "Vegetarian Tacos",
+      "recepyDescription": "Flavorful tacos made with a mix of sautéed vegetables, beans, and topped with fresh avocado and cilantro.",
+      "recepyImage": "vegetarianTacos.jpg",
+      "stars": 5,
+      "likes": 420,
+      "username": "Liam",
+      "userImage": "userImage.jpg",
+      "id": 6
     },
     {
-      "id": 4,
-      "name": "Vegetable Stir Fry",
-      "image": "https://images.unsplash.com/photo-1485962307416-993e145b0d0d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookingDuration": 15,
-      "cookingLevel": "easy",
-      "servingNumber": 3
+      "recepyName": "Beef Burger",
+      "recepyDescription": "A juicy beef burger topped with cheese, lettuce, tomatoes, and a special sauce. Served with crispy fries.",
+      "recepyImage": "beefBurger.jpg",
+      "stars": 4,
+      "likes": 460,
+      "username": "Sophia",
+      "userImage": "userImage.jpg",
+      "id": 7
     },
     {
-      "id": 5,
-      "name": "Chocolate Lava Cake",
-      "image": "https://images.unsplash.com/photo-1465014925804-7b9ede58d0d7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookingDuration": 25,
-      "cookingLevel": "medium",
-      "servingNumber": 4
-    },
-    {
-      "id": 6,
-      "name": "Tacos al Pastor",
-      "image": "https://images.unsplash.com/photo-1432139509613-5c4255815697?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookingDuration": 45,
-      "cookingLevel": "medium",
-      "servingNumber": 4
+      "recepyName": "Pancakes with Syrup",
+      "recepyDescription": "Fluffy pancakes served with maple syrup and fresh fruits. A perfect sweet breakfast option.",
+      "recepyImage": "pancakesWithSyrup.jpg",
+      "stars": 4,
+      "likes": 310,
+      "username": "Arjun",
+      "userImage": "userImage.jpg",
+      "id": 8
     }
   ]
 }

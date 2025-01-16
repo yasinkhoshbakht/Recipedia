@@ -1,23 +1,33 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useContext } from "react";
 import CommunityPost from "./CommunityPost";
+import { FoodDataContext } from "../Contexts/foodDataContext";
 
-function CommunitySection() {
-  const [communityData, setCommunityData] = useState([]);
+function CommunitySection({ limit = true }) {
+  const { commentData } = useContext(FoodDataContext);
 
-  useEffect(() => {
-    fetch("http://localhost:3000/data")
-      .then((response) => response.json())
-      .then((data) => setCommunityData(data))
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+  // بررسی داده‌ها و ایجاد ساختار مناسب
+  const commentsToRender = commentData.data.map((item) => ({
+    recepyName: item.recepyName || null,
+    recepyDescription: item.recepyDescription || item.body || "",
+    recepyImage: item.recepyImage || "",
+    likes: item.likes || 0,
+    username: item.username || item.userName || "Anonymous",
+    userImage: item.userImage || "",
+    stars: item.stars || 0,
+    id: item.id,
+  }));
+
+  const limitedComments = limit
+    ? commentsToRender.slice(0, 4)
+    : commentsToRender;
 
   return (
     <div className="mt-24 CommunitySection items-center px-24 flex flex-col">
       <h2 className="text-[4.6rem] font-semibold">From Our Community</h2>
       <div className="container flex justify-between flex-wrap w-full">
-        {communityData.map((item) => (
+        {limitedComments.map((item) => (
           <CommunityPost
+            key={item.id}
             recepyName={item.recepyName}
             recepyDescription={item.recepyDescription}
             recepyImage={item.recepyImage}
@@ -26,7 +36,6 @@ function CommunitySection() {
             userImage={item.userImage}
             stars={item.stars}
             id={item.id}
-            key={item.id}
           />
         ))}
       </div>
